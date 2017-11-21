@@ -9,5 +9,7 @@ ReactDOM.render(
     <ImageSlider></ImageSlider>
     <Bomb initialCount={120} />
   </div>,
-  document.getElementById('global')
+  document.getElementById('main')
 );
+
+require('./test/index-test.js'); // Leave this in!
